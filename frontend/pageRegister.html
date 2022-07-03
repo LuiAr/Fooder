@@ -1,0 +1,53 @@
+<html>
+    <head>
+       <meta charset="utf-8">
+        <link rel="stylesheet" href="css/pageRegister.css" media="screen" type="text/css" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="background">
+
+        </div>
+
+        <div id="container">
+            
+            <form>
+
+                <img src="images/logo_colore.png" alt="logo" class="centrer" onClick="location.href='index.html'">
+                
+                <h1>Are you hungry and want to have recipes adapted to your preferences ? Join us !</h1>
+
+                <label><b>First name</b></label>
+                <input type="text" placeholder="Your first name" id="firstname" required>
+
+                <label><b>Last name</b></label>
+                <input type="text" placeholder="Your last name" id="lastname" required>
+
+                <label><b>Birth date</b></label>
+                <input type="text" placeholder="Your date of birth" id="birthdate" required>
+
+                <label><b>Email</b></label>
+                <input type="text" placeholder="Your email" id="email" required>
+
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Your passeword (ex: 1234)" id="password" required>
+
+                <label><b>Password validation</b></label>
+                <input type="password" placeholder="Password confirmation" id="passwordconfirmation" required>
+
+                <h2>By creating your account, you agree to abide by Fooder's Privacy Policy and Terms and Conditions.</h2>
+
+                <!-- <input type="submit" id='submit' value='Join us !' onclick="registerUser()"> -->
+                <button id='submit' onclick="registerUser()">Join us !</button>
+            
+            </form>
+        </div>
+    </body>
+
+    <script src="js/pageRegister.js"></script>
+</html>
+
